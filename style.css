@@ -1,0 +1,13 @@
+body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nothing {
+    text-align: center;
+    color: white;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif"
+}
