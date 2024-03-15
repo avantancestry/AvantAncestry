@@ -25,6 +25,7 @@ body {
 /* HEADER STYLE */
 .header {
 	background-color: whitesmoke;
+	box-shadow: 0px 0px 10px black;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -52,7 +53,7 @@ body {
 	transition: all 0.2s;
 }
 
-.logo__text{
+.logo__text {
 	bottom: 50px;
 	transform: translateY(-2px);
 }
@@ -62,15 +63,11 @@ body {
 	display: block;
 }
 
-.nav {
-}
-
 .nav__list {
 	display: flex;
 	column-gap: 40px;
-}
-
-.nav__item {
+	min-height: 60px;
+	align-items: center;
 }
 
 .nav__link {
@@ -86,7 +83,11 @@ body {
 @media (max-width: 700px) {
 	.header__content {
 		flex-direction: column;
-		padding: 25px 0;
-		row-gap: 18px;
+		padding: 15px 0;
+		row-gap: 15px;
+	}
+
+	.nav__list {
+		min-height: 0px;
 	}
 }
