@@ -25,7 +25,8 @@ body {
 .header {
 	background-image: linear-gradient(whitesmoke, rgb(202, 202, 255));
 	box-shadow: 0 0 30px rgb(151, 151, 255);
-	position: sticky;
+	position: fixed;
+	width: 100%;
 	top: 0;
 }
 
@@ -34,7 +35,7 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	min-height: 60px;
-	max-width: 80vw;
+	max-width: 80%;
 	padding: 0 30px;
 	margin: 0 auto;
 }
@@ -104,7 +105,7 @@ body {
 	justify-content: space-between;
 	flex-direction: column;
 	min-height: 60px;
-	max-width: 80vw;
+	max-width: 80%;
 	padding: 15px 0;
 	row-gap: 15px;
 	margin: 0 auto;
