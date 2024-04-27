@@ -19,6 +19,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	min-height: 100vh;
+	padding-top: 60px;
 }
 
 /* HEADER STYLE */
@@ -89,6 +90,10 @@ body {
 	.header__nav__list {
 		min-height: 0px;
 	}
+
+	body {
+		padding-top: 110px;
+	}
 }
 
 /* FOOTER */
@@ -135,4 +140,14 @@ body {
 
 .footer__copyright {
 	color: white;
+}
+
+/* MAIN */
+
+.main {
+	width: 100%;
+}
+
+.main__content {
+	align-items: center;
 }
