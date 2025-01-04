@@ -1,0 +1,8 @@
+about-us
+target-audience
+phenotype-search
+genotype-search
+technical-details
+phenotypical-data
+genotypical-data
+process-your-own-sample
